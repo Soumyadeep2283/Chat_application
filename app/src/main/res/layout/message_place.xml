@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColorHint="#3F51B5"
+        android:textColor="#03161F"
+        android:hint="@string/write_a_message"
+        android:layout_marginTop="1dp"
+        android:textSize="20dp"
+        android:id="@+id/messageArea"
+        android:maxHeight="80dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="4dp"
+        android:id="@+id/img"
+        android:text="Send Image"
+        android:layout_marginTop="3dp"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:src="@drawable/bubble_out"
+        android:padding="4dp"
+        android:id="@+id/rnd"
+        android:layout_marginBottom="1dp"
+        android:text="Token"
+        android:layout_marginTop="3dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="4dp"
+        android:layout_marginBottom="10dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:id="@+id/sendButton"/>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Firest Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+    <EditText
+        android:id="@+id/phn"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Phnoe Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3687CC"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#1F0202" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/registerButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_login"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/login"/>
+
+</LinearLayout>

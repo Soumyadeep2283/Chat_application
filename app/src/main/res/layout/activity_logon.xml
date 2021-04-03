@@ -1,0 +1,65 @@
+ git <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:background="#C92424"
+        android:hint="@string/enter_username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#EEDA24" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:background="#BD2B2B"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#EEDA24" />
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:id="@+id/chb"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00C4FF"
+        android:layout_marginBottom="20dp"
+        android:text="Singh in" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User Please Register"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/register"/>
+
+</LinearLayout>

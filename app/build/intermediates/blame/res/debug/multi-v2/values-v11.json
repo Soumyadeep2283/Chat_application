@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sankhadeepchaterjee/Desktop/project/R&D/IBM/ChaApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/sankhadeepchaterjee/.gradle/caches/transforms-2/files-2.1/d68c6bed665f8741e13b0c9ffc469af2/play-services-appinvite-16.0.4/res/values-v11/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "170",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "291"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "176"
+                    }
+                }
+            ]
+        }
+    ]
+}
